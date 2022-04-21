@@ -24,7 +24,7 @@ export default function Home() {
 
   return (
     <div className='flex flex-col items-center justify-center w-full h-screen space-y-8 lg-flex-row'>
-      <h1 className='text-3xl'>The Cat App</h1>
+      <h1 className='text-3xl'>요망한 고양이!</h1>
       {CAT_LIST.map((cat) => (
         <div
           key={cat.id}
