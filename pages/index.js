@@ -8,14 +8,17 @@ export default function Home() {
     {
       id: 'c1',
       src: cat1,
+      title: 'cat1',
     },
     {
       id: 'c2',
       src: cat2,
+      title: 'cat2',
     },
     {
       id: 'c3',
       src: cat3,
+      title: 'cat3',
     },
   ];
 
@@ -30,7 +33,7 @@ export default function Home() {
           <Image
             objectFit='cover'
             src={cat.src}
-            alt='Picture of Cat1'
+            alt={`Picture of ${cat.title}`}
             layout='fill'
             priority
           />
