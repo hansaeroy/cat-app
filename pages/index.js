@@ -35,6 +35,7 @@ export default function Home() {
             src={cat.src}
             alt={`Picture of ${cat.title}`}
             layout='fill'
+            unoptimized={true}
             priority
           />
         </div>
